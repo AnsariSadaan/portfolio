@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { Code2, Users, Award, Rocket } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import { FadeInSection } from "@/components/animations/ScrollAnimations";
 
 const stats = [
   { icon: Code2, value: "2+", label: "Years Experience" },
@@ -23,16 +24,20 @@ export function About() {
           className="max-w-3xl mx-auto text-center"
         >
           <h2 className="text-3xl font-bold sm:text-4xl">About Me</h2>
-          <p className="mt-4 text-lg text-muted-foreground">
-            I'm a Junior Software Developer with 2.1 years of experience in
-            full-stack development, specializing in Node.js, React.js, REST
-            APIs, and database-driven applications. I enjoy building scalable
-            backend services, optimizing application performance, and delivering
-            end-to-end solutions for enterprise platforms and modern web
-            products. My experience spans across microservices architecture,
-            real-time applications, and both SQL and NoSQL databases including
-            MySQL, MongoDB, Redis, and ScyllaDB.
-          </p>
+          <FadeInSection>
+            <p className="mt-4 text-lg text-muted-foreground">
+              I'm a Software Developer with 2.1 years of experience building
+              full-stack web applications and scalable backend systems. I
+              specialize in Node.js, React.js, REST APIs, and database-driven
+              applications, with hands-on experience delivering enterprise
+              solutions and modern web products. Currently, I work on
+              customer-facing enterprise platforms while also building personal
+              projects focused on real-time communication, authentication, and
+              payment integrations. My experience spans microservices
+              architecture, real-time applications, and both SQL and NoSQL
+              databases including MySQL, MongoDB, Redis, and ScyllaDB.
+            </p>
+          </FadeInSection>
           <div className="w-20 h-1 mx-auto mt-4 bg-primary rounded-full" />
         </motion.div>
 
