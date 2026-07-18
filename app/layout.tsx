@@ -9,7 +9,7 @@ import { Analytics } from "@vercel/analytics/react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Sadaan Ansari | Software Developer",
+  title: "Sadaan Ansari | Software Developer Portfolio",
   description:
     "Portfolio of Sadaan Ansari - Software Developer specializing in React, Next.js, and TypeScript.",
   // Favicon Configuration
