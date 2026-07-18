@@ -18,6 +18,7 @@ export function Hero() {
   const titles = [
     "Computer Engineer",
     "Full Stack Developer",
+    "Available for Work",
     "Creating with code. Small details matter."
   ];
 
