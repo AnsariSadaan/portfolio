@@ -53,7 +53,12 @@
 | Email      | EmailJS                 |
 | Deployment | Vercel                  |
 
+
+## 📁 Project Structure
+
 ```
+
+
 portfolio/
 │
 ├── app/
