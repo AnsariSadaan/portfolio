@@ -81,7 +81,7 @@ export function Navbar() {
         <div className="flex items-center gap-2 md:gap-4">
           {/* Resume Button - Desktop */}
           <Link
-            href="/SadaanAnsari-SDE.pdf"
+            href="/SADAAN-ANSARI-SDE.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden md:flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-full border hover:bg-primary hover:text-primary-foreground transition-all"
@@ -144,7 +144,7 @@ export function Navbar() {
 
           {/* Resume Button - Mobile */}
           <Link
-            href="/SadaanAnsari-SDE.pdf"
+            href="/SADAAN-ANSARI-SDE.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-2 w-full px-4 py-3 text-sm font-medium rounded-full border border-primary/20 bg-primary/5 hover:bg-primary hover:text-primary-foreground transition-all"
